@@ -66,7 +66,7 @@ function App() {
           Result: <span>{result}</span>&nbsp;
           {ellapsed !== null && (
             <>
-              ,&nbsp;<span>Ellaped time: </span><span>({Math.round(ellapsed * 1000)} usec)</span>
+              ,&nbsp;<span>Ellaped time: </span><span>{Math.round(ellapsed * 1000)} usec</span>
             </>
           )}
         </div>
