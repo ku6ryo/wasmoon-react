@@ -54,13 +54,13 @@ function App() {
     <>
       <div>
         <div>
-          <input value={aStr} onChange={onAChange} />
+          <input type="number" value={aStr} onChange={onAChange} />
         </div>
         <div>
         +
         </div>
         <div>
-          <input value={bStr} onChange={onBChange} />
+          <input type="number" value={bStr} onChange={onBChange} />
         </div>
         <div>
           Result: <span>{result}</span>&nbsp;
